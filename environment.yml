@@ -1,6 +1,5 @@
 name: comic
 channels:
-    - defaults
     - conda-forge
 dependencies:
     - cartopy
@@ -18,3 +17,4 @@ dependencies:
     - scikit-learn
     - xarray
     - xlrd
+    - ipykernel
