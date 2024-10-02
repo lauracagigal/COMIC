@@ -7,7 +7,7 @@ RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && /opt/conda/bi
     && rm -rf /tmp/conda-tmp
 
 # [Optional] Uncomment to install a different version of Python than the default
-RUN conda install -y xarray
+#RUN conda install -y dask
 #     && pip install --no-cache-dir pipx \
 #     && pipx reinstall-all
 
