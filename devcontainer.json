@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "echo 'dentro'; pwd; ls ;bash valva.sh",
+  "postCreateCommand": "pwd",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
