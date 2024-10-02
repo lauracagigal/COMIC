@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "conda env create -f environment.yml && conda activate myenv",
+  "postCreateCommand": "conda env create -f environment.yml && conda activate comic",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
