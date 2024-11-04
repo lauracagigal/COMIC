@@ -12,6 +12,7 @@ dependencies:
     - numpy
     - pandas
     - plotly
+    - reliability
     - scipy
     - seaborn
     - statsmodels
